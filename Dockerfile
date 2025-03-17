@@ -10,7 +10,7 @@ COPY --chown=rstudio:rstudio ../.Rprofile .Rprofile
 COPY --chown=rstudio:rstudio ../renv/activate.R renv/activate.R
 COPY --chown=rstudio:rstudio ../renv/settings.json renv/settings.json
 
-RUN R -e "renv::restore(library = '/usr/local/lib/R/site-library', repos = 'https://packagemanager.posit.co/cran/__linux__/noble/2024-02-28')"
+RUN R -e "renv::restore(library = '/usr/local/lib/R/site-library')"
 
 RUN chmod -R u+w /home/rstudio/project && rm -rf /home/rstudio/project
 
