@@ -1,0 +1,10 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+data|stem|36929d06e1ec242c|87f5902ed953433b|2c530c1562a7fbd1|33550471||t20163.9083652531s|s1745b|1745|rds|local|vector|||0.008||
+model|stem|8170b5e2020ce155|693e4c90d947b5eb|14b2e38f19bc9229|808688450||t20163.9083654378s|s108b|108|rds|local|vector|||0.003||
+data_from_zenodo|stem|c10493b8d20280f1|ee073a0d9bd41978|656518d84b832bfb|-162536026|data/10-euro_education.csv*data/10-euro_geo_nuts2.rds*data/10-euro_sectors.csv|t20164.3341754971s|s293120b|293120|file|local|vector|||1.051||
+eura_sf|stem|2a3f0c1e44174a90|e08a8c12e2b8c83c|46b5594cee1741c9|1382270635||t20164.3361999844s|s757877b|757877|qs|local|vector|||6.872||
+euro_basemap|stem|6a413d3989f0e6c8|c08167c437ae1abd|a3d5546ef9f7dfdc|-781296826||t20164.3510619635s|s4333868b|4333868|qs|local|vector|||0.183||
+download_files_from_zenodo|function|d97203b2fcf430ec
+.Random.seed|object|e3caccbe0f22386f
+download_ne_data|function|6216c1f0793c5b78
+create_european_backgroundmap|function|71cdf8cfc1dc676f
